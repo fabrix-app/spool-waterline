@@ -33,7 +33,7 @@ jobs:
           command: npm install
       - run:
           name: install-npm-sqlite
-          command: npm install sqlite3@4.0.0
+          command: npm install waterline-sqlite3
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
