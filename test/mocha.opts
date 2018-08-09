@@ -1,0 +1,6 @@
+--reporter spec
+--recursive
+--full-trace
+--check-leaks
+--globals app
+--fgrep app.js --invert
