@@ -1,4 +1,5 @@
 export { WaterlineSpool } from './WaterlineSpool'
+export { WaterlineResolver } from './WaterlineResolver'
 export { Schemas } from './schemas'
 export { Validator } from './validator'
 export { Transformer } from './transformer'
